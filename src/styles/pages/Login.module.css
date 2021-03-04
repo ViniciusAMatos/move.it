@@ -1,0 +1,70 @@
+
+.container{
+  height: 100vh;
+  max-width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  background: var(--blue);
+
+  
+}
+
+.container section{
+
+  display: flex;
+
+  align-items: center;
+  
+}
+
+
+.container section div:last-child h2{
+  font-size: 2.25rem;
+  color: var(--white);
+  padding-top: 70px;
+}
+.github{
+  display: flex;
+  padding: 40px 0px; 
+
+}
+
+.github p{
+  color: #B2B9FF;
+  font-size: 1.25rem;
+
+  width: 280px;
+  line-height: 1.8rem;
+  padding-left: 20px;
+}
+
+.signIn{
+  cursor: pointer;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height: 5rem;
+  width: 21.25rem;
+  border: 0;
+  border-radius: 5px;
+  background: rgb(73,83,184);
+  background: linear-gradient(90deg, rgba(73,83,184,1) 20%,rgba(73,83,184,0.0032387955182072714) 100% );
+  color: #B2B9FF;
+  font-size: 1.25rem;
+  padding: 1rem;
+  outline: 0;
+
+}
+
+
+@media(max-width: 720px){
+  .container section{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-bottom: 2rem;
+  }
+  
+}
