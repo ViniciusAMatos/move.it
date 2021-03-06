@@ -13,15 +13,6 @@ import Router from 'next/router'
 export default function Login() {
 
   const [session, loading] = useSession();
-  // useEffect(() => {
-  //   const { pathname } = Router
-  //   if (session) {
-  //     if (pathname == '/') {
-  //       Router.push('/home')
-  //     }
-  //   }
-  // }
-  //   , []);
 
   return (
 

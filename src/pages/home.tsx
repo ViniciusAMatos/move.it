@@ -27,15 +27,6 @@ interface HomeProps {
 export default function Home(props: HomeProps) {
   const [session, loading] = useSession();
 
-  // useEffect(() => {
-  //   const { pathname } = Router;
-  //   if (!session) {
-  //     if (pathname == '/home') {
-  //       Router.push('/')
-  //     }
-  //   }
-  // }
-  //   , []);
 
 
   return (
